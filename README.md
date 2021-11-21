@@ -1,4 +1,4 @@
-# bubblecord
+# Bubblecord
 A BetterDiscord and powercord theme that makes everything popout and have rounded corners, bubbles.
 
 \- _Edited by Sans#0001_ -
