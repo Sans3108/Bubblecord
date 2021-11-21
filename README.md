@@ -2,8 +2,7 @@
 A BetterDiscord and powercord theme that makes everything popout and have rounded corners, bubbles.
 
 \- _Edited by Sans#0001_ -
-Original can be found [here](https://github.com/bentettmar/bubblecord)
-_I'm too lazy to explain what I've changed..._
+Original can be found [here](https://github.com/bentettmar/bubblecord) _(I'm too lazy to explain what I've changed...)_
 
 ### Installation
 - Goosemod: Open the theme store and search for Bubblecord, choose the one by Benny.
