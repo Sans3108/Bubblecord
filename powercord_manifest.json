@@ -1,0 +1,9 @@
+{	
+  "name": "Bubblecord",
+  "description": "This theme makes everything popout and have rounded corners, bubbles. (Title Bar Fixed)",
+  "version": "1.0.8",
+  "author": "Benny (Fix by Sans#0001)",
+  "license": "MIT",
+  "theme": "bubblecord.theme.css",
+  "consent": "true"
+}
