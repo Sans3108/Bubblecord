@@ -9,7 +9,7 @@ Original can be found [here](https://github.com/bentettmar/bubblecord) _(I'm too
 - Betterdiscord: Download `bubblecord.theme.css` and put it in your themes folder.
 - Powercord: Open terminal and run the below command.
 ```
-cd powercord/src/Powercord/themes && git clone https://github.com/ilyBenny/bubblecord
+cd powercord/src/Powercord/themes && git clone https://github.com/Sans3108/Bubblecord.git
 ```  
 
 ### Previews
