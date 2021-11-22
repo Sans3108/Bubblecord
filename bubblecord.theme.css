@@ -36,11 +36,6 @@
   background-color: var(--background-tertiary);
 }
 
-.actionButtons-14eAc_ > :last-child {
-  position: relative;
-  right: 9px;
-}
-
 .menu-3sdvDG {
   border-radius: 10px !important;
 }
@@ -365,23 +360,23 @@ button {
 
 /* Video, Screen Share and Activity buttons */
 
+.actionButtons-14eAc_ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .button-1YfofB {
-  border-radius: 10px;
-  padding: 10px 5px;
-  font-size: 90%;
+  border-radius: 1em;
+  padding: 1em 1em;
+  font-size: 0.9em;
   font-weight: thin;
-}
-
-.button-1YfofB[aria-label='Share Your Screen'] {
-  right: -1px;
-}
-
-.button-1YfofB[aria-label='Start an Activity'] {
-  right: -2px;
+  width: 100%;
+  display: flex;
 }
 
 /* Connection Status */
 
 .statusWithPopout-3ZfFol {
-  font-size: 12px;
+  font-size: 0.91em;
 }
