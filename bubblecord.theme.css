@@ -311,14 +311,6 @@ button {
   background-color: #0e1113;
 }
 
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
-  background-color: #292d33;
-}
-
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
-  background-color: #2f343b;
-}
-
 .setIdentityLink-OpBDR6 {
   display: none;
 }
@@ -369,4 +361,27 @@ button {
 
 .GHOSTCOMMANDLISTITEM:hover {
   background-color: rgb(32, 36, 39);
+}
+
+/* Video, Screen Share and Activity buttons */
+
+.button-1YfofB {
+  border-radius: 10px;
+  padding: 10px 5px;
+  font-size: 90%;
+  font-weight: thin;
+}
+
+.button-1YfofB[aria-label='Share Your Screen'] {
+  right: -1px;
+}
+
+.button-1YfofB[aria-label='Start an Activity'] {
+  right: -2px;
+}
+
+/* Connection Status */
+
+.statusWithPopout-3ZfFol {
+  font-size: 12px;
 }
