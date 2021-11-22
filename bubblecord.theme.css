@@ -372,7 +372,12 @@ button {
   font-size: 0.9em;
   font-weight: thin;
   width: 100%;
+}
+
+.contents-18-Yxp {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Connection Status */
