@@ -11,6 +11,7 @@
 :root {
   --blurple: #5865f2;
   --blurple-hover: #4651c8;
+  --anim-duration: 0.5s;
 }
 
 .theme-dark {
@@ -66,7 +67,17 @@
 .chat-3bRxxu,
 .container-1D34oG,
 .pageWrapper-1PgVDX {
-  margin: 15px;
+  margin: 5px;
+  border-radius: 10px !important;
+}
+
+.sidebar-2K8pFh {
+  margin: 5px;
+  border-radius: 10px !important;
+}
+
+.guilds-1SWlCJ[aria-label='Servers sidebar'] {
+  margin: 5px;
   border-radius: 10px !important;
 }
 
@@ -159,10 +170,12 @@
 .winButton-iRh8-Z {
   height: 34px;
   width: 34px;
-  left: -15px;
+  left: -14px;
   border-radius: 25px;
   margin-left: 8px;
   transition: all 0.1s;
+  top: 6px;
+  align-self: flex-end;
 }
 
 .winButtonClose-1HsbF-:hover {
@@ -170,14 +183,59 @@
   background-color: transparent;
 }
 
+.winButtonClose-1HsbF-:hover svg {
+  filter: drop-shadow(0px 2px 2px #ff5e5e);
+  animation-name: rotate;
+  animation-duration: var(--anim-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  display: inline-block;
+}
+
 .winButtonMinMax-PBQ2gm[aria-label='Minimize']:hover {
   color: #ffff00;
   background-color: transparent;
 }
 
+.winButtonMinMax-PBQ2gm[aria-label='Minimize']:hover svg {
+  filter: drop-shadow(0px 2px 2px #ffff00);
+  animation-name: rotate;
+  animation-duration: var(--anim-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  display: inline-block;
+}
+
 .winButtonMinMax-PBQ2gm[aria-label='Maximize']:hover {
   color: #6eff55;
   background-color: transparent;
+}
+
+.winButtonMinMax-PBQ2gm[aria-label='Maximize']:hover svg {
+  filter: drop-shadow(0px 2px 2px #6eff55);
+  animation-name: rotate;
+  animation-duration: var(--anim-duration);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  display: inline-block;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) scale(100%);
+  }
+  80% {
+    transform: rotate(288deg) scale(80%);
+  }
+  95% {
+    transform: rotate(342deg) scale(100%);
+  }
+  100% {
+    transform: rotate(360deg) scale(100%);
+  }
 }
 
 .wordmark-2iDDfm svg {
@@ -187,15 +245,21 @@
   position: absolute;
   font-family: 'Ginto';
   content: 'Discord';
-  top: 10px;
-  left: 18px;
-  font-size: 18px;
+  display: flex;
+  top: 6px;
+  left: 13px;
+  font-size: 16px;
   font-weight: 900;
   color: var(--wordmark-text-color);
   height: 19px;
-  width: 300px;
+  width: auto;
   transform: translateY(-8%);
   line-height: 20px;
+}
+
+/* title bar */
+.typeWindows-1za-n7 {
+  height: 20px;
 }
 
 /* coloured profile card borders */
