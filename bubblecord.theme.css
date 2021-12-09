@@ -452,3 +452,19 @@ button {
 .statusWithPopout-3ZfFol {
   font-size: 0.91em;
 }
+
+/* Message text hover */
+.message-2qnXI6:hover .messageContent-2qWWxC {
+  animation-name: glow;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes glow {
+  100% {
+    text-shadow: 0 0 6px rgb(71, 147, 255);
+  }
+}
