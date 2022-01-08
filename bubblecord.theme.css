@@ -468,3 +468,8 @@ button {
     text-shadow: 0 0 6px rgb(71, 147, 255);
   }
 }
+
+/* Friend list (fix) */
+.peopleColumn-1wMU14 {
+  background-color: var(--background-primary);
+}
